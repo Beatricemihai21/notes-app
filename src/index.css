@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #a0a0ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+h1 {
+  color: #be309a;
+}
+p {
+  color: #be309a;
+}
+.app {
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  background-color: rgb(191, 162, 214);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.add-note {
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: none;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* button:hover {
+  background-color: #45a049;
+} */
+::placeholder {
+  background: rgb(203, 181, 219);
+}
+textarea {
+  background: rgb(203, 181, 219);
+}
+
+.notes-list .note {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  text-align: left;
+}
+
+button {
+  background-color: #6a3ce7;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #9f3ed3;
+}
